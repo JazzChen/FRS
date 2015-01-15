@@ -1,7 +1,15 @@
+-- drop frs_db if exists
+
+DROP DATABASE IF EXISTS frs_db;
+
+-- drop user frs if exists
+
+DROP USER IF EXISTS frs;
+
+
 -- create user frs
 
 CREATE USER frs login password 'frs';
-
 
 -- create database frs_db
 
